@@ -3,6 +3,7 @@ import Navbar from './components/navbar'
 import Hero from './components/hero'
 import Technologies from './components/technologies'
 import Aboutme from './components/aboutme'
+import Footer from './components/footer'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Technologies />
       <Aboutme />
+      <Footer />
     </div>
   );
 }

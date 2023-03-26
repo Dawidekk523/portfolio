@@ -7,19 +7,19 @@ import { BsGit } from "react-icons/bs";
 
 const Technologies = () => {
   return (
-    <div className="flex h-64 bg-gray-900 my-16 py-3  items-center justify-center">
-      <div className="flex flex-col">
-      <div className="flex space-x-8 w-max">
-        <DiJavascript1 color='white' size={96}/>
-        <DiNodejs color='white' size={96}/>
-        <DiJqueryLogo color='white' size={96}/>
-        <DiReact color='white' size={96}/>
+    <div className="flex h-64 bg-green-500 my-16 py-3  items-center justify-center opacity-50">
+      <div className="flex flex-col xl:flex-row ">
+      <div className="flex space-x-12 xl:mr-24 lg:space-x-24 xl:space-x-24">
+        <DiJavascript1 color='white' size={72}/>
+        <DiNodejs color='white' size={72}/>
+        <DiJqueryLogo color='white' size={72}/>
+        <DiReact color='white' size={72}/>
       </div>
-      <div className="flex space-x-8 w-max mt-4">
-        <SiTailwindcss color='white' size={96}/>
-        <TbBrandTypescript color='white' size={96}/>
-        <TbBrandPython color='white' size={96}/>
-        <BsGit color='white' size={96}/>
+      <div className="flex space-x-12 xl:space-x-24 lg:space-x-24">
+        <SiTailwindcss color='white' size={72}/>
+        <TbBrandTypescript color='white' size={72}/>
+        <TbBrandPython color='white' size={72}/>
+        <BsGit color='white' size={72}/>
       </div>
       </div>
     </div>
