@@ -6,8 +6,8 @@ const hero = () => {
     return (
         <div className="section1 sm:flex items-center content-center justify-center sm:mx-12">
             <div className="flex items-center content-center justify-center py-6 sm:flex-shrink-0">
-            <img className='h-[400px] rounded-lg drop-shadow-lg sm:h-[400px]' src={avatar} />
-            <button className="bg-white rounded-lg drop-shadow-lg p-4 absolute top-48 right-6 sm:relative sm:right-12 sm:top-[-60px]">
+            <img className='h-[350px] rounded-lg drop-shadow-lg sm:h-[400px] lg:h-[500px]' src={avatar} />
+            <button className="bg-white rounded-lg drop-shadow-lg p-4 absolute top-48 right-12 sm:relative sm:right-12 sm:top-[-60px]">
                 <a href="https://github.com/Dawidekk523" target={'_blank'}><AiFillGithub size={50} color="#111827"/></a>
             </button>
             </div>

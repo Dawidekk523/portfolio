@@ -6,7 +6,7 @@ const navbar = () => {
                 <ul className='flex justify-between'>
                     <li className='p-5 font-semibold'>
                         <button>
-                            <a href="./app.js">Home</a>
+                            <a href="./app.js" className='underline decoration-green-500 decoration-4'>Home</a>
                         </button>
                     </li>
                     <li className='p-5 font-semibold'>
