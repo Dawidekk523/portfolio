@@ -1,31 +1,53 @@
 import React from "react";
-import overview1 from '../2.png';
-import { AiFillGithub } from 'react-icons/ai';
-import { ImPlay2 } from 'react-icons/im';
+import overview1 from "../2.png";
+import overview2 from "../3.png";
+import overview3 from "../4.png";
 
-const footer = () => {
+const Projects = () => {
   return (
-    <div className="flex flex-col items-center">
-      <div className="my-8">
-        <div className="bg-slate-300 h-[200px] w-[300px] drop-shadow-xl rounded-t-lg">
-            <img src={overview1} className='object-fill rounded-t-lg'/>
+    <div className="flex justify-center mt-8 gap-6 flex-col items-center lg:flex-row lg:flex-wrap">
+      <div className="drop-shadow-lg hover:drop-shadow-2xl" id="karta">
+        <div className="w-[350px]">
+          <a href="https://ambient-player-drab.vercel.app/">
+            <div className="relative top-8 bg-black opacity-30"></div>
+            <img className="rounded-t-lg bg-cover" src={overview1} />
+          </a>
         </div>
-        <div className="items-center flex gap-2 mx-2 relative bottom-48 justify-end">
-            <button className="bg-red-500 rounded-lg p-1 opacity-50">
-            <a href="https://ambient-player-drab.vercel.app/" target={'_blank'}><ImPlay2 size={24} color="white"/></a>
-            </button>
-            <button className="bg-black rounded-lg p-1 opacity-50">
-            <a href="https://github.com/Dawidekk523" target={'_blank'}><AiFillGithub size={24} color="white"/></a>
-            </button>
-        </div>
-        
-        <div className="bg-white h-[120px] w-[300px] drop-shadow-xl rounded-b-lg flex items-center flex-col py-2">
-            <p className="text-3xl font-medium text-slate-900">Ambient Player</p>
-            <p className="text-center">Little player with play/pause and sound volume controls. Calm your mind with chill music.</p>
+        <div className="rounded-b-lg h-24 bg-white flex justify-center items-center flex-col">
+          <span className="text-2xl font-bold ">Ambient Player</span>
+          <span className="text-gray-600 opacity-50">Just calm your mind and soul</span>
         </div>
       </div>
+
+      <div className="drop-shadow-lg hover:drop-shadow-2xl " id="karta">
+        <div className="w-[350px]">
+          <a href="">
+            <div className="relative top-8 bg-black opacity-30"></div>
+            <img className="rounded-t-lg" src={overview2} />
+          </a>
+        </div>
+        <div className="rounded-b-lg h-24 bg-white flex justify-center items-center flex-col">
+          <span className="text-2xl font-bold ">Python Meme bot</span>
+          <span className="text-gray-600 opacity-50">Automated YouTube Shorts bot</span>
+        </div>
+      </div>
+
+      <div className="drop-shadow-lg hover:drop-shadow-2xl" id="karta">
+        <div className="w-[350px]">
+          <a href="">
+            <div className="relative top-8 bg-black opacity-30"></div>
+            <img className="rounded-t-lg" src={overview3} />
+          </a>
+        </div>
+        <div className="rounded-b-lg h-24 bg-white flex justify-center items-center flex-col">
+          <span className="text-2xl font-bold ">Soon!</span>
+          <span className="text-gray-600 opacity-50">Eyes open! Something is coming!</span>
+        </div>
+      </div>
+
+      
     </div>
   );
 };
 
-export default footer;
+export default Projects;
