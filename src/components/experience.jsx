@@ -11,16 +11,16 @@ const hero = () => {
         <div className="flex-row flex items-center my-5 mt-10 justify-center">
           <div className="flex space-x-2 py-2 justify-center items-center px-5">
             <p className="text-2xl font-medium">JavaScript</p>
-            <div className="w-4 h-4 bg-green-500 rounded-lg"></div>
-            <div className="w-4 h-4 bg-green-500 rounded-lg"></div>
-            <div className="w-4 h-4 bg-green-500 rounded-lg"></div>
-            <div className="w-4 h-4 bg-green-500 rounded-lg"></div>
+            <div className="w-4 h-4 bg-green-500 rounded-lg opacity-50"></div>
+            <div className="w-4 h-4 bg-green-500 rounded-lg opacity-50"></div>
+            <div className="w-4 h-4 bg-green-500 rounded-lg opacity-50"></div>
+            <div className="w-4 h-4 bg-green-500 rounded-lg opacity-50"></div>
           </div>
 
           <div className="flex space-x-2 py-2 justify-center items-center">
             <p className="text-2xl font-medium">nodeJS</p>
-            <div className="w-4 h-4 bg-green-500 rounded-lg"></div>
-            <div className="w-4 h-4 bg-green-500 rounded-lg"></div>
+            <div className="w-4 h-4 bg-green-500 rounded-lg opacity-50"></div>
+            <div className="w-4 h-4 bg-green-500 rounded-lg opacity-50"></div>
             <div className="w-4 h-4 bg-slate-300 rounded-lg"></div>
             <div className="w-4 h-4 bg-slate-300 rounded-lg"></div>
           </div>
@@ -29,15 +29,15 @@ const hero = () => {
         <div className="flex-row flex items-center my-5 mt-10 justify-center">
           <div className="flex space-x-2 py-2 justify-center items-center px-5">
             <p className="text-2xl font-medium">jQuery</p>
-            <div className="w-4 h-4 bg-green-500 rounded-lg"></div>
-            <div className="w-4 h-4 bg-green-500 rounded-lg"></div>
-            <div className="w-4 h-4 bg-green-500 rounded-lg"></div>
+            <div className="w-4 h-4 bg-green-500 rounded-lg opacity-50"></div>
+            <div className="w-4 h-4 bg-green-500 rounded-lg opacity-50"></div>
+            <div className="w-4 h-4 bg-green-500 rounded-lg opacity-50"></div>
             <div className="w-4 h-4 bg-slate-300 rounded-lg"></div>
           </div>
 
           <div className="flex space-x-2 py-2 justify-center items-center">
             <p className="text-2xl font-medium">React</p>
-            <div className="w-4 h-4 bg-green-500 rounded-lg"></div>
+            <div className="w-4 h-4 bg-green-500 rounded-lg opacity-50"></div>
             <div className="w-4 h-4 bg-slate-300 rounded-lg"></div>
             <div className="w-4 h-4 bg-slate-300 rounded-lg"></div>
             <div className="w-4 h-4 bg-slate-300 rounded-lg"></div>
@@ -47,9 +47,9 @@ const hero = () => {
         <div className="sm:flex-row flex items-center my-5 mt-10 justify-center">
           <div className="flex space-x-2 py-2 justify-center items-center px-5">
             <p className="text-2xl font-medium">TailWind</p>
-            <div className="w-4 h-4 bg-green-500 rounded-lg"></div>
-            <div className="w-4 h-4 bg-green-500 rounded-lg"></div>
-            <div className="w-4 h-4 bg-green-500 rounded-lg"></div>
+            <div className="w-4 h-4 bg-green-500 rounded-lg opacity-50"></div>
+            <div className="w-4 h-4 bg-green-500 rounded-lg opacity-50"></div>
+            <div className="w-4 h-4 bg-green-500 rounded-lg opacity-50"></div>
             <div className="w-4 h-4 bg-slate-300 rounded-lg"></div>
           </div>
 
@@ -65,15 +65,15 @@ const hero = () => {
         <div className="flex items-center my-5 mt-10 justify-center">
           <div className="flex space-x-2 py-2 justify-center items-center px-5">
             <p className="text-2xl font-medium">Python</p>
-            <div className="w-4 h-4 bg-green-500 rounded-lg"></div>
-            <div className="w-4 h-4 bg-green-500 rounded-lg"></div>
+            <div className="w-4 h-4 bg-green-500 rounded-lg opacity-50"></div>
+            <div className="w-4 h-4 bg-green-500 rounded-lg opacity-50"></div>
             <div className="w-4 h-4 bg-slate-300 rounded-lg"></div>
             <div className="w-4 h-4 bg-slate-300 rounded-lg"></div>
           </div>
           <div className="flex space-x-2 py-2 justify-center items-center">
             <p className="text-2xl font-medium">Git</p>
-            <div className="w-4 h-4 bg-green-500 rounded-lg"></div>
-            <div className="w-4 h-4 bg-green-500 rounded-lg"></div>
+            <div className="w-4 h-4 bg-green-500 rounded-lg opacity-50"></div>
+            <div className="w-4 h-4 bg-green-500 rounded-lg opacity-50"></div>
             <div className="w-4 h-4 bg-slate-300 rounded-lg"></div>
             <div className="w-4 h-4 bg-slate-300 rounded-lg"></div>
           </div>

@@ -1,23 +1,16 @@
-import React from 'react'
-import Navbar from './components/navbar'
-import Hero from './components/hero'
-import Technologies from './components/technologies'
-import Aboutme from './components/aboutme'
-import Footer from './components/footer'
-import Experience from './components/experience'
+import React from 'react';
+import { Route, Routes } from 'react-router-dom'
+import Home  from './pages/Home'
+import Portfolio  from './pages/Portfolio'
+import Contact from './pages/Contact'
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      {/* some content */}
-      <Hero />
-      <Technologies />
-      <Aboutme />
-      <Footer />
-      <Experience />
-    </div>
-  );
+    <Routes>
+      <Route path='/' element={<Home /> } />
+      <Route path='/Portfolio' element={<Portfolio /> } />
+      <Route path='/Contact' element={<Contact /> } />
+    </Routes>
+  )
 }
-
 export default App;

@@ -1,27 +1,30 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 const navbar = () => {
-    return (
-        <div className="flex justify-between items-center h-24 max-w-[320px] mx-auto px-5 text-black">
-                <ul className='flex justify-between'>
-                    <li className='p-5 font-semibold'>
-                        <button>
-                            <a href="./app.js" className='underline decoration-green-500 decoration-4'>Home</a>
-                        </button>
-                    </li>
-                    <li className='p-5 font-semibold'>
-                        <button>
-                            <a href="./portfolio">Portfolio</a>
-                        </button>
-                    </li>
-                    <li className='p-5 font-semibold'>
-                        <button>
-                            <a href="./contact">Contact</a>
-                        </button>
-                    </li>
-                </ul>
-        </div>
-    )
-}
+  return (
+    <div className="justify-center flex">
+      <div className="flex justify-center content-center items-center h-24 max-w-[320px] px-5 text-black">
+        <ul className="flex justify-between">
+          <li className="p-5 font-semibold">
+            <button>
+              <Link to={"/"}>Home</Link>
+            </button>
+          </li>
+          <li className="p-5 font-semibold">
+            <button>
+              <Link to={"/Portfolio"}>Portfolio</Link>
+            </button>
+          </li>
+          <li className="p-5 font-semibold">
+            <button>
+              <Link to={"/Contact"}>Contact</Link>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
 
 export default navbar;
